@@ -1,0 +1,33 @@
+.btn-down {
+    position: absolute;
+    bottom: 15px;
+    right: 15px;
+    width: 44px;
+    height: 44px;
+}
+
+.popular-people{
+   
+        bottom: -50px;
+        left: calc( 50% - 50px);
+    
+}
+
+.card {
+    &__avatar {
+      margin: -50px auto 0;
+      width: 100px;
+      height: 100px;
+    }
+  }
+  
+  .reservation {
+    &__item {
+      min-height: 132px;
+      
+      &:hover {
+        filter: brightness(1);
+      }
+    }
+  }
+  

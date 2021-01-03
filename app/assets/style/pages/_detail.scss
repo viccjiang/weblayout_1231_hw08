@@ -1,0 +1,15 @@
+.img-detail {
+    height: 282px;
+}
+
+.img-detail-sm {
+    height: 81px;
+
+    @include tablet() {
+        height: 63px;
+    }
+
+    @include desktop() {
+        height: 96px;
+    }
+}
